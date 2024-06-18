@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /*-------------- header section -------------*/
 
 header {
@@ -13,6 +15,7 @@ header {
 h1 {
     color: #E0FBFC;
     margin-top: 55px;
+    font-family: Montserrat, serif;
 }
 
 figure {
@@ -22,6 +25,7 @@ figure {
 nav {
     background-color: #264653;
     text-align: center;
+    font-family: Roboto, serif;
 }
 
 a {
@@ -80,6 +84,7 @@ h2 {
     margin-top: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    font-family: Montserrat, serif;
 }
 
 .course {
@@ -100,12 +105,24 @@ h2 {
 ul {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
-.classes {
+.options {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: #264653 1px solid;
+    font-family: Roboto, serif;
+}
 
+.classes {
+    background-color:  #E76F51;
+    font-size: 30px;
+    padding: 10px 25px 10px 25px;
+    margin: 25px 10px 25px 10px;
+    border-radius: 5px;
+    border: #264653 1px solid;
 }
 
 /*-------------- footer section -------------*/
