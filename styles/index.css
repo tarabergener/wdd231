@@ -1,0 +1,119 @@
+/*-------------- header section -------------*/
+
+header {
+    background-color: #2A9D8F;
+    font-size: 25px;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #E0FBFC;
+    margin-top: 55px;
+}
+
+figure {
+
+}
+
+nav {
+    background-color: #264653;
+    text-align: center;
+}
+
+a {
+    color: #E0FBFC;;
+    text-decoration: none;
+    margin-right: 55px;
+    margin-left: 55px;
+    font-size: 20px;
+    background-color: #264653;
+}
+
+/*-------------- main section -------------*/
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+/*------------- grid sections -----------*/
+.work {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: #264653 2px solid;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0 3px 10px rgb(88, 88, 88);
+}
+
+.place {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border:#264653 2px solid;
+    border-radius: 10px;
+    margin: 15px 15px 15px 0px;
+    box-shadow: 0 3px 10px rgb(88, 88, 88);
+}
+
+.certificates {
+    grid-column-start: -4;
+    grid-column-end: -1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: #264653 2px solid;
+    border-radius: 10px;
+    margin: 0px 15px 15px 15px;
+    box-shadow: 0 3px 10px rgb(88, 88, 88);
+}
+
+/* ----------------------------------------*/
+
+h2 {
+    text-align: center;
+    background-color: #E9C46A;
+    padding: 10px 10px 5px 10px;
+    margin-top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.course {
+    list-style:square;
+    display: block;
+}
+
+.cert {
+    padding: 5px;
+}
+
+.beach {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.classes {
+
+}
+
+/*-------------- footer section -------------*/
+
+footer {
+    background-color: #2A9D8F;
+    text-align: center;
+    color: #E0FBFC;
+}
+
+/*-------------- header section -------------*/
