@@ -1,3 +1,18 @@
+const button = document.querySelector(".hamburger-button");
+
+function hamburger() {
+
+    let nav = document.querySelector("nav");
+
+    if (nav.style.display === "flex") {
+
+        nav.style.display = "none";
+    } else {
+
+        nav.style.display = "flex";
+    }
+}
+
 const url = `data/members.json`;
 const cards = document.querySelector("#tile");
 
