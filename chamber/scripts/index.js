@@ -163,11 +163,11 @@ const businessUrl = document.querySelector(".url");
 const businessIcon = document.querySelector(".bus-icon");
 
 function getBusinessCards(response) {
-    businessName.innerHTML = Math.random(response.businesses.businessName);
-    //businessAddress.innerHTML = response.businesses.address;
-    //businessPhone.innerHTML = response.businesses.phone;
-    //businessUrl.innerHTML = response.businesses.url;
-    //const imgsrc = response.businesses.icon;
-    //businessIcon.setAttribute("SRC", iconsrc);
-    //businessIcon.setAttribute("alt", response.businesses.icon);
+//    businessName.innerHTML = Math.random(response.businesses.businessName);
+//    businessAddress.innerHTML = response.businesses.address;
+//    businessPhone.innerHTML = response.businesses.phone;
+//    businessUrl.innerHTML = response.businesses.url;
+//    const imgsrc = response.businesses.icon;
+//    businessIcon.setAttribute("SRC", iconsrc);
+//    businessIcon.setAttribute("alt", response.businesses.icon);
 }
