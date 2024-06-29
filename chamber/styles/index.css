@@ -62,7 +62,7 @@ footer {
     padding: 5px;
 }
 
-#container {
+.container {
     border: 1px solid black;
     background-color: #d1cac7;
     border-radius: 10px;
@@ -70,22 +70,22 @@ footer {
     margin: 2rem;
 }
 
-.weather {
+#weather {
     padding: 25px 50px 25px 50px;
 }
 
-#container .description {
+.container .description {
     text-transform: capitalize;
     margin: .3rem 0;
 }
 
-#container .temperature-value {
+.container .temperature-value {
     font-size: 2rem;
     color: black;
     margin: .3rem 0;
 }
 
-#container .app-title {
+.container .app-title {
     font-size: 25px;
 }
 
