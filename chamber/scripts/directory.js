@@ -21,6 +21,7 @@ async function getBusinessData() {
 getBusinessData();
 
 const displayBusinesses = (businesses) => {
+
     businesses.forEach((business) => {
 
         let tile = document.createElement("section");
@@ -45,7 +46,7 @@ const displayBusinesses = (businesses) => {
 		tile.appendChild(website);
 		tile.appendChild(image);
 
-		document.querySelector(".container").appendChild(tile)
+		document.querySelector("#container").appendChild(tile);
 
     })
 };

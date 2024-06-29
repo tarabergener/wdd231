@@ -92,3 +92,21 @@ footer {
 #cards {
     
 }
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container section {
+    border: black solid 1px;
+    background-color: #e8f0fd;
+    margin: 15px 15px 15px 15px;
+    width: 250px;
+    height: auto;
+    text-align: center;
+}
+
+#container img {
+    
+}
