@@ -13,6 +13,20 @@ function hamburger() {
     }
 }
 
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("article");
+
+gridbutton.addEventListener("click", () => {
+    display.classList.add("grid");
+    display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", () => {
+    display.classList.add("list");
+    display.classList.remove("grid");
+});
+
 const url = `data/members.json`;
 const cards = document.querySelector("#tile");
 
@@ -31,7 +45,7 @@ async function getBusinessData() {
     } catch (error) {
         console.log(error);
     }
-}
+};
 
 getBusinessData();
 
