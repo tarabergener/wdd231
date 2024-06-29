@@ -21,9 +21,19 @@ p {
 }
 
 nav {
-    float: right;
+    justify-content: center;
     margin-bottom: 15px;
     display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    color: rgb(77, 75, 75);
 }
 
 #nav {
@@ -58,8 +68,11 @@ footer {
 }
 
 .hamburger-button {
-    border: 2px solid black;
+    font-size: 35px;
+    border: none;
     padding: 5px;
+    background-color: #96837b;
+    float: right;
 }
 
 .container {
@@ -159,13 +172,13 @@ section {
     border: black solid 1px;
     background-color: #e8f0fd;
     margin: 15px 15px 15px 15px;
-    width: 500px auto;
+    width: 350px;
     height: 100px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .list section > * {
