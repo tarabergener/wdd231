@@ -1,0 +1,60 @@
+{
+    "businesses": [
+        {
+            "businessName": "Rock Bottom",
+            "address": "2525 Wally Rd",
+            "phone": "805-468-6854",
+            "url": "rockbottom.dontwait.com",
+            "icon": "https://img.icons8.com/?size=100&id=17551&format=png&color=000000",
+            "memberLevel": "gold"
+        },
+        {
+            "businessName": "Sports Outlet",
+            "address": "5484 Main St",
+            "phone": "805-478-3214",
+            "url": "sportsoulet.com",
+            "icon": "https://img.icons8.com/?size=100&id=WUG1ZnTqzZHf&format=png&color=000000",
+            "memberLevel": "gold"
+        },
+        {
+            "businessName": "Cloud Cakes",
+            "address": "36365 Spokes Ave",
+            "phone": "805-558-6969",
+            "url": "cloudcakes.com",
+            "icon": "https://img.icons8.com/?size=100&id=2854&format=png&color=000000",
+            "memberLevel": "bronze"
+        },
+        {
+            "businessName": "Terra's Toy Shop",
+            "address": "458 Alta Vist Way",
+            "phone": "805-458-4454",
+            "url": "terrastoyshop.com",
+            "icon": "https://img.icons8.com/?size=100&id=122489&format=png&color=000000",
+            "memberLevel": "silver"
+        },
+        {
+            "businessName": "Bubble Emporium",
+            "address": "1457 Main St",
+            "phone": "805-585-6663",
+            "url": "bubbleemporiumus.com",
+            "icon": "https://img.icons8.com/?size=100&id=676&format=png&color=000000",
+            "memberLevel": "silver"
+        },
+        {
+            "businessName": "Both Ends | Socks and Ties",
+            "address": "26535 Spokes Ave",
+            "phone": "805-484-8484",
+            "url": "bothends.com",
+            "icon": "https://img.icons8.com/?size=100&id=2938&format=png&color=000000",
+            "memberLevel": "gold"
+        },
+        {
+            "businessName": "Sloapy Slides",
+            "address": "2654 Main St",
+            "phone": "805-654-3626",
+            "url": "sloapyslides.com",
+            "icon": "https://img.icons8.com/?size=100&id=32256&format=png&color=000000",
+            "memberLevel": "silver"
+        }
+    ]
+}

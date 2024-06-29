@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber of Commerce</title>
-    <meta name="description" content="Chamber of Commerce home page for driving business">
+    <title>Lakeland Chamber of Commerce</title>
+    <meta name="description" content="Lakeland Chamber of Commerce home page for driving business">
     <meta name="author" content="Tara Bergener">
-    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/index-large.css">
     <meta property="og:title" content="The Church of Jesus Christ of Latter-day Saints">
     <meta property="og:description" content="Official website">
     <meta property="og:image" content="https://assets.ldscdn.org/0d/7b/0d7bb93794eb11ecb29ceeeeac1ee20345ef0d4f/church_logo.png">
@@ -14,8 +15,9 @@
 </head>
 <body>
     <header>
-        <h1>Anicity</h1>
+        <h1>Lakeland</h1>
         <h4>Chamber of Commerce</h4>
+        <button class="hamburger-button" onclick="hamburger()">☰</button>
         <nav>
             <a id="nav" href="#">Home</a>
             <a id="nav" href="discover.html">Discover</a>
@@ -31,49 +33,43 @@
             <div id="container" class="container">
             </div>
             <section id="container" class="weather">
-                <h2>Weather</h2>
-                <div class="icon">
-                    <img src="images/sunny-svg.svg" alt= "Sunny day icon" width="100">
-                </div>
-                <div class="alignright">
-                    <p>Temperature:&nbsp;</p>
-                    <p>Conditions:&nbsp;</p>
-                    <p>Wind:&nbsp;</p>
-                    <p>Wind Chill:&nbsp;</p>
-                </div>
-                <div class="alignleft">
-                    <p id="temp">75&deg;</p>
-                    <p>&nbsp;Sunny</p>
-                    <p id="wind">&nbsp;5 km/h</p>
-                    <p id="windChill">&nbsp;9.8&deg;C</p>
+                <div class="app-title">Today's Weather</div>
+                <div class="weather-container">
+                    <img class="weather-icon" src="" alt="">
+                    <p class="description"></p>
+                    <p class="temperature-value"></p>
                 </div>
             </section>
-            <div id="container" class="">
+            <div id="container">
                 <h3>Weather Forecast</h3>
-                <p>display weeks weather here using JS</p>
+                <p class="today"></p>
+                <p class="tomorrow"></p>
+                <p class="next-day"></p>
             </div>
-            <div>
-                <seciton>
-                    <p>Business card</p>
-                </seciton>
+            <div id="cards">
+                <img class="bus-icon"
+                <p class="business-name"></p>
+                <p class="email"></p>
+                <p class="phone"></p>
+                <p class="url"></p>
             </div>
         </section>
     </main>
     <footer>
         <section>
-            <p>Anicity Chamber of Commerce</p>
+            <p>Lakeland Chamber of Commerce</p>
             <p>100 Jason St</p>
-            <p>Anicity, MI 25478</p>
+            <p>Lakeland, FL 25478</p>
             <p>info@anicitycc.org</p>
             <p>(258)346-1369</p>
         </section>
-        <section>
+        <section id="right">
             <p>WDD231 Class Project</p>
             <p>Tara Bergener</p>
-            <p>&copy; Anicity Chamber of Commerce</p>
+            <p>&copy; Lakeland Chamber of Commerce</p>
             <p id="lastModified">Last Modification: </p>
         </section>
     </footer>
-    <script defer src="scripts/directory.js"></script>
+    <script defer src="scripts/index.js"></script>
 </body>
 </html>
