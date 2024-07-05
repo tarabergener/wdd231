@@ -82,7 +82,7 @@ let color = "#E76F51"
 
 function displayClasses(courseInfo) {
 
-    document.querySelector(".options").innerHTML = "";
+    let courseDiv = document.querySelector(".options").innerHTML = "";
     courseInfo.forEach(course => {
 
         let tile = document.createElement("ul");
@@ -90,10 +90,13 @@ function displayClasses(courseInfo) {
 
         subject.textContent = `<li class="classes">${course.subject}</li>`;
 
-
         tile.appendChild(subject)
 
         document.querySelector(".options").appendChild(tile);
+        })
+
+    courseDiv.addEventListener('click', () => {
+        displayModal(courseInfo);
     })
 }
 
@@ -117,4 +120,33 @@ function changeElementColor(tile, color) {
             changeElementColor(tile, "#E0FBFC");
         }
     }
+}
+
+function displayModal(courseInfo) {
+    
+    let courseDetails = document.getElementById("course-details").innerHTML = "";
+    courseInfo.forEach(course => {
+
+        let close = document.createElement("button");
+        let header = document.createElement("h2");
+        let title = document.createElement("h3");
+        let credits = document.createElement("p");
+        let certificate = document.createElement("p");
+        let description = document.createElement("p");
+        let technology = document.createElement("p");
+
+        close.textContent = `<button id="closeModal">X</button>`;
+        header.textContent = `<h2>${course.subject} ${course.number}</h2>`;
+        title.textContent = `<h3>${course.title}</h3>`;
+        credits.textContent = `<p><strong>Credits</strong>: ${course.credits}</p>`;
+        certificate.textContent = `<p><strong>Certificate</strong>: ${course.certificate}</p>`;
+        description.textContent = `<p>${course.description}</p>`;
+        technology.textContent = `<p><strong>Technology</strong>: ${course.technology.join(', ')}</p>`;
+    
+        courseDetails.showModal();
+
+        closeModal.addEventListener("click", () => {
+            courseDetails.close();
+        })
+    })
 }

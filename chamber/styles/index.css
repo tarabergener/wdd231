@@ -219,3 +219,69 @@ section a {
 	color: navy;
 	letter-spacing: 1.1pt;
 }
+
+/*-----------form page------------*/
+
+dialog[open] {
+    background-color: #d1cac7;
+    border-radius: 3px;
+    min-width: 300px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+::backdrop {
+    background-color: #3333337c;
+}
+
+div {
+    margin: 15px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 15px 15px 15px;
+    min-width: 500px;
+}
+
+textarea {
+    max-width: 500px;
+    width: 700px;
+    display: flex;
+    font-size: 15px;
+}
+
+label {
+    font-size: 20px;
+    margin: 15px;
+}
+
+input {
+    padding: 7px 40px 7px 15px;
+    font-size: 20px;
+}
+
+select {
+    font-size: 15px;
+}
+
+dialog {
+    font-size: 20px;
+}
+
+button {
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+}

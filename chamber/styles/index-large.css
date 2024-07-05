@@ -16,4 +16,10 @@
         text-decoration: none;
         font-weight: bold;
     }
+    
+/*-----------form page------------*/
+
+    textarea {
+        min-width: 500px;
+    }
 }

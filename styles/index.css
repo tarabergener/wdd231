@@ -136,3 +136,9 @@ footer {
 }
 
 /*-------------- header section -------------*/
+/*--------------- modal section -------------*/
+dialog {
+    border: black solid 1px;
+    background-color: #00000000;
+    
+}
