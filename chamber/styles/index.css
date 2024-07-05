@@ -51,16 +51,22 @@ nav a:hover {
 #flex {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
+
+/*-----------footer------------*/
 
 footer {
     background-color: #96837b;
     display: flex;
 }
 
-#right {
-    float: right;
+#right, #left {
+    background-color: #96837b;
+    border: none
 }
+
+/*-----------------------------*/
 
 #date, #details, #admission {
     margin: 0px;
@@ -83,8 +89,9 @@ footer {
     margin: 2rem;
 }
 
-#weather {
+#weather, #forecast {
     padding: 25px 50px 25px 50px;
+    max-height: 300px;
 }
 
 .container .description {

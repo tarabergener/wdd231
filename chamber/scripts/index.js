@@ -75,11 +75,19 @@ function hamburger() {
 }
 
 async function getMembers() {
-    const response = await fetch("data/members.json");
-    const businesses = await response.json();
-    getBusinessCards(response);
-    console.log(businesses);
+    try {
+        const response = await fetch("data/members.json");
 
+        if (response.ok) {
+            const data = await response.json();
+            getBusinessCards(data);
+        } else {
+            throw Error(await response.text());
+        }
+
+    } catch (error) {
+        console.log(error);
+    }
 }
 
 getMembers();
@@ -162,12 +170,13 @@ const businessPhone = document.querySelector(".phone");
 const businessUrl = document.querySelector(".url");
 const businessIcon = document.querySelector(".bus-icon");
 
-function getBusinessCards(response) {
-//    businessName.innerHTML = Math.random(response.businesses.businessName);
-//    businessAddress.innerHTML = response.businesses.address;
-//    businessPhone.innerHTML = response.businesses.phone;
-//    businessUrl.innerHTML = response.businesses.url;
-//    const imgsrc = response.businesses.icon;
-//    businessIcon.setAttribute("SRC", iconsrc);
-//    businessIcon.setAttribute("alt", response.businesses.icon);
+function getBusinessCards(data) {
+
+    businessName.innerHTML = data.businessName;
+    businessAddress.innerHTML = data.address;
+    businessPhone.innerHTML = data.businesses.phone;
+    businessUrl.innerHTML = data.businesses.url;
+    const imgsrc = data.businesses.icon;
+    businessIcon.setAttribute("SRC", imgsrc);
+    businessIcon.setAttribute("alt", data.businesses.icon);
 }
