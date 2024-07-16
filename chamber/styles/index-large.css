@@ -29,4 +29,18 @@
         display: flex;
         justify-content: space-around;
     }
+
+/*------------discover page----------*/
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    img {
+        width: 700px;
+        margin: 20px 20px 1px 50px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
 }
