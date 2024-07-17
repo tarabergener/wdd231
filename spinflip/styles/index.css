@@ -19,6 +19,40 @@ main {
     grid-template-columns: 33% 67%;
 }
 
+/*-------------games page----------------*/
+
+.games-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin: 50px;
+}
+
+img {
+    width: 300px;
+    height: 300px
+}
+
+.filterMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.filterMenu li {
+    display: none;
+}
+
+.open li {
+    display: block;
+}
+
+.open a {
+    display: none;
+}
+
 /*--------------calendar-----------------*/
 
 ul {list-style-type: none;}

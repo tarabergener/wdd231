@@ -21,10 +21,59 @@
     </header>
     <main>
         <section class="authors">
-            <h2></h2>
+            <h2>Creators</h2>
+            <h3>Tara Bergener</h3>
+            <img src="images/IMG_20220220_144400.jpg">
+            <p>Thank you checking out our website! I hope you enjoy all of the fun pictures and events. Some of them are actually real and you can attend them if you so desire.</p>
+            <h3>Isaac Bergener</h3>
+            <p>A special thanks to my son for his great imagination and love of all things games.</p>
+            <p>Isaac was instrumental in the idea behind SPINflip and his imagination and questions drove the site to be what it is now.</p>
         </section>
+        <p>If you enjoy our content, subscribe to get the latest new in the gaming world!</p>
         <section class="subscribe">
-            
+            <form>
+                <fieldset>
+                    <legend>Personal Info</legend>
+                    <div>
+                        <label for="fname"><strong>First Name: </strong>
+                            <input type="text" id="fname" name="fname" title="" autocomplete="given-name" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="lname"><strong>Last Name: </strong>
+                            <input type="text" id="lname" name="lname" title="" autocomplete="family-name" required><br>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="email"><strong>Email Address: </strong>    
+                            <input type="email" id="email" name="email" title="" placeholder="example@domain.com" autocomplete="email" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="phoneNumber"><strong>Phone Number: </strong>
+                            <input type="tel" id="phoneNumber" name="phoneNumber" title="" placeholder="###-###-####" autocomplete="tel" required><br>
+                        </label>
+                    </div>
+                    <div>
+                        <div>How would you like to be informed?</div>
+                        <label><input type="checkbox" id="text" name="text" value="yes">Text</label>
+                        <label><input type="checkbox" id="email" name="email" value="yes">Email</label>
+                    </div>
+                    <div>News Frequency</div>
+                    <label id="one-week">Once a week</label>
+                    <input type="radio" name="frequency" value="one">
+                    <label id="one-month">Once a month</label>
+                    <input type="radio" name="frequency" value="two">
+                    <label id="occasional">Occasionally</label>
+                    <input type="radio" name="frequency" value="three">
+                    <div>
+                        <button id="privacyPolicy">Privacy Policy</button>
+                        <dialog id="dialogBox">
+                            <div></div>
+                            <button id="closeButton">Close</button>
+                        </dialog>
+                    </div>
+                    <button>Subscribe!</button>
         </section>
     </main>
     <footer>
