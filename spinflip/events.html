@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPINflip Events Page - Tara Bergener</title>
+    <meta name="description" content="Promotes local gaming events and gives details about those events and the weather.">
+    <meta name="author" content="Tara Bergener">
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="scripts/events.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>SPINflip GAMING</h1>
+        <nav>
+            <a id="main" href="index.html">HOME</a>
+            <a id="main" href="#">EVENTS</a>
+            <a id="main" href="games.html">GAMES</a>
+            <a id="main" href="about.html">ABOUT US</a>
+        </nav>
+    </header>
+    <main>
+        <section class="left">
+            <div class="container" id="weather">
+                <div class="app-title">Today's Weather</div>
+                <div class="weather-container">
+                    <img class="weather-icon" src="" alt="weather icon">
+                    <p class="description"></p>
+                    <p class="temperature-value"></p>
+                </div>
+            </div>
+            <div class="calendar">
+                <h3 id="title">Calendar</h3>
+                <div class="month">
+                    <ul>
+                      <li class="prev">&#10094;</li>
+                      <li class="next">&#10095;</li>
+                      <li>JULY<span style="font-size:18px"> 2024</span></li>
+                    </ul>
+                  </div>
+                  <ul class="weekdays">
+                    <li>Su</li>
+                    <li>Mo</li>
+                    <li>Tu</li>
+                    <li>We</li>
+                    <li>Th</li>
+                    <li>Fr</li>
+                    <li>Sa</li>
+                  </ul>
+                  <ul class="days">
+                    <li></li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                    <li>11</li>
+                    <li>12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                    <li>17</li>
+                    <li>18</li>
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                    <li>22</li>
+                    <li><span class="active">23</span></li>
+                    <li>24</li>
+                    <li>25</li>
+                    <li>26</li>
+                    <li>27</li>
+                    <li>28</li>
+                    <li>29</li>
+                    <li>30</li>
+                    <li>31</li>
+                  </ul>
+            </div>
+        </section>
+        <section class="right">
+            <div>
+                <h3><strong>Upcoming Events</strong></h3>
+                <section class="events">
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy;
+            <span id="currentYear">2024</span>
+            - Tara Bergener - Florida
+        </p>
+        <p id="lastModified">Last Modification: 06/17/2024 11:57:36</p>
+    </footer>
+    <script src="scripts/footer.js" defer></script>
+</body>
