@@ -1,0 +1,112 @@
+{
+    "games": [
+	    {
+	      "imageUrl": "images/goat-simulator.jpg",
+          "productName": "Goat Simulator 3",
+          "players": "Single player",
+          "onlinePlay": "No",
+          "console": "PlayStation",
+          "gameRating": "T",
+          "releaseDate:": 2022
+        },
+        {
+          "imageUrl": "images/Indiana-Jones-and-the-Great-Circle.jpg",
+          "productName": "Indiana Jones and the Great Circle",
+          "players": "Single player",
+          "onlinePlay": "No",
+          "console": "Xbox",
+          "gameRating": "T",
+          "releaseDate:": 2024
+        },
+        {
+          "imageUrl": "images/just-dance-2024.jpg",
+          "productName": "Just Dance 2024 Edition",
+          "players": "Up to 4 players",
+          "onlinePlay": "Yes",
+          "console": "PlayStation",
+          "gameRating": "E",
+          "releaseDate:": 2023
+        },
+        {
+          "imageUrl": "images/Luigis-Mansion-2.jpg",
+          "productName": "Luigi's Mansion 2HD",
+          "players": "Single player",
+          "onlinePlay": "No",
+          "console": "Nintendo Switch",
+          "gameRating": "E",
+          "releaseDate:": 2024
+        },
+        {
+          "imageUrl": "images/mario-party.jpg",
+          "productName": "Super Mario Party",
+          "players": "Up to 4 players",
+          "onlinePlay": "No",
+          "console": "Nintendo Switch",
+          "gameRating": "E",
+          "releaseDate:": 2021
+        },
+        {
+          "imageUrl": "images/mlb-the-show.jpg",
+          "productName": "MLB The Show '24",
+          "players": "Single player",
+          "onlinePlay": "Yes",
+          "console": "PlayStation",
+          "gameRating": "E",
+          "releaseDate:": 2024
+        },
+        {
+          "imageUrl": "images/paper-mario.jpg",
+          "productName": "Paper Mario Origami King",
+          "players": "Single player",
+          "onlinePlay": "No",
+          "console": "Nintendo Switch",
+          "gameRating": "E",
+          "releaseDate:": 2020
+        },
+        {
+          "imageUrl": "images/pikmin4.jpg",
+          "productName": "Pikmin 4",
+          "players": "Up to 2 players",
+          "onlinePlay": "No",
+          "console": "Nintendo Switch",
+          "gameRating": "E10+",
+          "releaseDate:": 2023
+        },
+        {
+          "imageUrl": "images/pokemon-arceus.jpg",
+          "productName": "Pokemon Legends of Arceus",
+          "players": "Up to 2 players",
+          "onlinePlay": "No",
+          "console": "Nintendo Switch",
+          "gameRating": "E",
+          "releaseDate:": 2022
+        },
+        {
+          "imageUrl": "images/Star-Wars-Jedi-Fallen-Order.jpg",
+          "productName": "Star Wars Jedi Fallen Order",
+          "players": "Single player",
+          "onlinePlay": "No",
+          "console": "Xbox",
+          "gameRating": "T",
+          "releaseDate:": 2019
+        },
+        {
+          "imageUrl": "images/super-smash.jpg",
+          "productName": "Super Smash Bros. Ultimate",
+          "players": "Up to 4 players",
+          "onlinePlay": "Yes",
+          "console": "Nintendo Switch",
+          "gameRating": "E10+",
+          "releaseDate:": 2018
+        },
+        {
+          "imageUrl": "images/zelda-tears-of-kingdom.jpg",
+          "productName": "Zelda Tears of the Kingdom",
+          "players": "Single player",
+          "onlinePlay": "No",
+          "console": "Nintendo Switch",
+          "gameRating": "E10+",
+          "releaseDate:": 2023
+        }
+    ]
+}

@@ -12,6 +12,29 @@ h3 {
     font-weight: bold;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #81A684;
+}
+
+a:hover {
+    color: #326835;
+}
+
+/*-------------home page----------------*/
+
+#hero {
+    width: 100%;
+    height: auto;
+}
+
 /*-------------event page----------------*/
 
 main {
