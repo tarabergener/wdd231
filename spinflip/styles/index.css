@@ -15,8 +15,10 @@ h3 {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px;
+    padding: 25px;
+    margin: 25px;
     font-size: 1.5rem;
+    background-color: #282a38;
 }
 
 a {
@@ -33,6 +35,16 @@ a:hover {
 #hero {
     width: 100%;
     height: auto;
+}
+
+#events {
+    
+}
+
+.featured-games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 /*-------------event page----------------*/

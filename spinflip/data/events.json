@@ -1,0 +1,25 @@
+{
+    "events": [
+        {
+            "eventName": "COD Modern Warfare Community Tournament",
+            "eventDate": "July 17, 2024",
+            "eventStatus": "Virtually",
+            "eventLocation": "Remote",
+            "eventPrize": "Up to $180"
+        },
+        {
+            "eventName": "Super Smash Bros Casual Tournament",
+            "eventDate": "July 22, 2024",
+            "eventStatus": "In Person",
+            "eventLocation": "The Detour, 2200 Market Street, Carlsbad, CA", 
+            "eventPrize": "No Prize"
+        },
+        {
+            "eventName": "Spawn Camp Coaching & Skirmish",
+            "eventDate": "July 23, 2024",
+            "eventStatus": "In Person",
+            "eventLocation": "7025 County Road 46A, Lake Mary, FL 32746",
+            "eventPrize": "No Prize"
+        }
+    ]
+}
