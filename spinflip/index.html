@@ -7,12 +7,14 @@
     <meta name="description" content="Main page about gaming site SPINflip">
     <meta name="author" content="Tara Bergener">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/index-small.css">
     <script src="scripts/index.js" defer></script>
 </head>
 <body>
     <header>
         <h1>SPINflip GAMING</h1>
         <img id="hero" src="images/hero-image.png" alt="Two people playing video games together">
+        <button class="hamburger-button" onclick="hamburger()">☰</button>
         <nav>
             <a id="main" href="#">HOME</a>
             <a id="main" href="events.html">EVENTS</a>
@@ -21,11 +23,12 @@
         </nav>
     </header>
     <main>
-        <section class="events">
-            <h3>This Weeks Events</h3>
+        <section>
+            <h2 class="home-header">This Weeks Events</h2>
+            <div class="events"></div>
         </section>
         <section>
-            <h3>Featured Games</h3>
+            <h2 class="home-header">Featured Games</h2>
             <div class="featured-games">
 
             </div>

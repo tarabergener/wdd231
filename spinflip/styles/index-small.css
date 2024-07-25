@@ -1,0 +1,20 @@
+@media screen and (max-width: 650px) {
+    .hamburger-button {
+        font-size: 35px;
+        border: none;
+        padding: 5px;
+        background-color: #0E0F19;
+        float: right;
+        color: #81A684;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        background-color: #0E0F19;
+    }
+
+    #main {
+        text-align: right;
+    }
+}

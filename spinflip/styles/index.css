@@ -6,7 +6,7 @@ body {
     color: #dae6db;
 }
 
-h3 {
+h3, h2 {
     font-family: "Gudea", serif;
     color: #81A684;
     font-weight: bold;
@@ -30,6 +30,12 @@ a:hover {
     color: #326835;
 }
 
+.hamburger-button {
+    background-color: #0E0F19;
+    border: none;
+    color:#0E0F19;
+}
+
 /*-------------home page----------------*/
 
 #hero {
@@ -37,14 +43,27 @@ a:hover {
     height: auto;
 }
 
-#events {
-    
+.home-header {
+    display: flex;
+    justify-content: center;
+}
+
+.events {
+    background-color: #282a38;
+    margin: 25px;
+    padding: 25px;
 }
 
 .featured-games {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 25px 50px 50px 50px;;
+}
+
+.featured-games img {
+    width: 500px;
+    height: auto;
 }
 
 /*-------------event page----------------*/
@@ -53,6 +72,8 @@ main {
     display: grid;
     grid-template-columns: 33% 67%;
 }
+
+
 
 /*-------------games page----------------*/
 
