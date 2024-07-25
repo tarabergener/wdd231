@@ -73,8 +73,6 @@ main {
     grid-template-columns: 33% 67%;
 }
 
-
-
 /*-------------games page----------------*/
 
 .games-list {
@@ -91,22 +89,21 @@ img {
     height: 300px
 }
 
-.filterMenu {
-    display: flex;
-    flex-direction: column;
-}
-
-
-.filterMenu li {
-    display: none;
-}
-
 .open li {
     display: block;
 }
 
 .open a {
     display: none;
+}
+
+.filter-list {
+    justify-content: left;
+    background-color: #0E0F19;
+}
+
+#filter-button {
+   margin-left: 50px;
 }
 
 /*--------------calendar-----------------*/
@@ -179,4 +176,15 @@ body {font-family: sans-serif;}
   padding: 5px;
   background: rgb(61, 61, 61);
   color: white !important
+}
+
+/*-------------about page----------------*/
+#body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.authors {
+    text-align: center;
 }
