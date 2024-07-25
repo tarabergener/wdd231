@@ -17,4 +17,9 @@
     #main {
         text-align: right;
     }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
 }
